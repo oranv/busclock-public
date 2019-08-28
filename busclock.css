@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Futura";
+    src: url("futura-1.woff") format('woff');
+}
+@font-face {
+    font-family: "Futura";
+    src: url("futura-2.woff") format('woff');
+    font-weight: bold;
+}
+
+html, body, p, section, ol, li, header {
+margin: 0;
+padding 0;
+width: 100%;
+}
+body {
+height: 100vh;
+background-color: #343434;
+font-family: 'Futura','Signika Negative', sans-serif;
+color: #fff;
+}
+header, footer {
+height: 10vh;
+}
+section#predictions {
+height: 90vh;
+}
+ol {
+list-style: none;
+padding: 0px;
+height: 100%;
+}
+li {
+list-style-position: inside;
+height: 20%;
+padding-bottom: 0.625em;
+position: relative;
+border-top: solid 0.0625em #fff;
+}
+.prd {
+position: absolute;
+top: 50%;
+margin-top: -2%;
+font-size: 4rem; 
+}
+.prd-line {
+padding-left: 5%;
+font-weight: bold;
+}
+.prd-direction {
+position: absolute;
+left: 20%;
+}
+.prd-eta {
+position: absolute;
+right: 5%;}
+
+.numberCircle {
+    width: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 32px;
+    border: 2px solid #666;
+}
+
+/* elements */
+#clock {
+float: right;
+}
+
+/* line identity colors */
+.line-0   {color: #fff !important;}
+.line-1   {color: #C40065 !important;}
+.line-2   {color: #C40065 !important;}
+.line-3   {color: #72BF44 !important;}
+.line-4   {color: #63CDF6 !important;}
+.line-5   {color: #F179AF !important;}
+.line-6   {color: #ED1C24 !important;}
+.line-11  {color: #ed1c24 !important;}
+.line-12X {color: #b9784d !important;}
+.line-24X {color: #b9784d !important;}
+
+.bg-line-0   {background-color: #fff !important;}
+.bg-line-1   {background-color: #C40065 !important;}
+.bg-line-2   {background-color: #C40065 !important;}
+.bg-line-3   {background-color: #72BF44 !important;}
+.bg-line-4   {background-color: #63CDF6 !important;}
+.bg-line-5   {background-color: #F179AF !important;}
+.bg-line-6   {background-color: #ED1C24 !important;}
+.bg-line-11  {background-color: #ed1c24 !important;}
+.bg-line-12X {background-color: #b9784d !important;}
+.bg-line-24X {background-color: #b9784d !important;}
